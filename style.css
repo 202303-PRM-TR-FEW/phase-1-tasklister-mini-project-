@@ -9,6 +9,10 @@ body {
   min-width: 100%;
   background: linear-gradient(pink, violet);
 }
+label{
+  display: block;
+  margin-bottom: 1em ;
+}
 
 button {
   font-size: 7px;
@@ -34,4 +38,17 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+#list li {
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#new_task_description{
+  padding: 1em ;
+}
+#submit{
+  /* width: 20%; */
+  padding: 1em 0.2em;
 }
